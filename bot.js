@@ -160,7 +160,7 @@ client.on("guildMemberAdd", member => {
   .setDescription(`
   <a:pikachu:784442572096667658> **<@`+member.id+`> Sunucumuza Katıldı ! **<a:pikachu:784442572096667658>
   
-  <a:yildiz:784398441534062612>**Kayıt edilmek için <@&{register}> yetkililerine isim yaş veya teyit vermen yeterli !**<a:yildiz:784398441534062612>
+  <a:yildiz:784398441534062612>**Kayıt edilmek için <@&782959859297419296> yetkililerine isim yaş veya teyit vermen yeterli !**<a:yildiz:784398441534062612>
   
   <a:yildiz_2:784449289056157746>  **Seninle birlikte `+üyesayısı+` kişiye ulaştık !** <a:yildiz_2:784449289056157746>
   
