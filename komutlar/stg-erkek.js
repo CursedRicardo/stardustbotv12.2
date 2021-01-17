@@ -1,6 +1,5 @@
 const { MessageEmbed } = require('discord.js')
 const datab = require('quick.db')
-const ms = require('ms')
 const moment = require("moment");
 const { parseZone } = require("moment");
 
