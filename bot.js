@@ -135,16 +135,16 @@ client.on("guildMemberAdd", member => {
       if(üs) {
         üyesayısı = üyesayısı.replace(/([0-9])/g, d => {
           return {
-            '0': `<:number0:800340331106402324>`,
-            '1': `<:number1:800340391432945704>`,
-            '2': `<:number2:800340479862243378>`,
-            '3': `<:number3:800340536929812490>`,
-            '4': `<:number4:800340582828474369>`,
-            '5': `<:number5:800340646111346708>`,
-            '6': `<:number6:800340766702436372>`,
-            '7': `<:number7:800340820989050910>`,
-            '8': `<:number8:800340894632771584>`,
-            '9': `<:number9:800340936780546050>`}[d];})}
+            '0': `<:8128_number0:802823281996202014>`,
+            '1': `<:2635_number1:802823282016780298>`,
+            '2': `<:7746_number2:802823281891606560>`,
+            '3': `<:2390_number3:802823281790812190>`,
+            '4': `<:4426_number4:802823281421582397>`,
+            '5': `<:9316_number5:802823281886494740>`,
+            '6': `<:5584_number6:802823281743757312>`,
+            '7': `<:1196_number7:802823281572577321>`,
+            '8': `<:1316_number8:802823281463132240>`,
+            '9': `<:9507_number9:802823281413324820>`}[d];})}
       const kanal = member.guild.channels.cache.find(r => r.id === "797925488185311273");
       let register = '782959859297419296'
     let user = client.users.cache.get(member.id);
@@ -169,7 +169,7 @@ client.on("guildMemberAdd", member => {
   <a:aaaaaa:785215298667282432>**Yetkililer gelene kadar lütfen sabret.**<a:aaaaaa:785215298667282432>
 
   **İçeride keyifli vakitler geçirmeni dileriz.**`)
-  .setImage(`https://cdn.discordapp.com/attachments/717656449194393644/800344140608438272/standard.gif`)
+  .setImage(`https://media2.giphy.com/media/WTH4CJxWA2c4Z8NZVk/giphy.gif`)
   kanal.send(embed)
   kanal.send(`<@&${register}>`)
 });
